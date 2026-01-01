@@ -1,0 +1,4 @@
+import emoji
+#help(emoji)
+emo = input('Input: ')
+print('Output: ', emoji.emojize(emo, language='alias'))
